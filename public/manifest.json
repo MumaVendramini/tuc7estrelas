@@ -1,0 +1,43 @@
+{
+  "short_name": "TUC7Estrelas",
+  "name": "Tenda de Umbanda Caboclo 7 Estrelas",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "logo192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#00A651",
+  "background_color": "#E8F5E9",
+  "orientation": "portrait",
+  "categories": ["religion", "spirituality", "community"],
+  "description": "Aplicativo oficial da Tenda de Umbanda Caboclo 7 Estrelas",
+  "screenshots": [],
+  "shortcuts": [
+    {
+      "name": "Calendário",
+      "short_name": "Calendário",
+      "description": "Ver calendário de eventos",
+      "url": "/calendario"
+    },
+    {
+      "name": "Entidades",
+      "short_name": "Entidades",
+      "description": "Ver lista de entidades",
+      "url": "/entidades"
+    }
+  ]
+}
