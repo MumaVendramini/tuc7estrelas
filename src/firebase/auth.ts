@@ -8,6 +8,9 @@ import {
 import { doc, setDoc, getDoc } from 'firebase/firestore';
 import { auth, db } from './config';
 
+// Exportar explicitamente a instância auth para uso em outros componentes
+export { auth };
+
 // Tipos de perfil de utilizador
 export type UserRole = 'Super_user' | 'Adm' | 'Tesoureiro' | 'Medium';
 
