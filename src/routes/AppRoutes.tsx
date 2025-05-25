@@ -3,15 +3,15 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { useAuth } from '../contexts/auth/AuthContext';
 import Login from '../pages/auth/Login';
 import Dashboard from '../pages/Dashboard';
-import Calendar from '../pages/calendar/Calendar';
-import Entities from '../pages/entities/Entities';
-import Studies from '../pages/studies/Studies';
-import Photos from '../pages/photos/Photos';
-import Songs from '../pages/songs/Songs';
-import Birthdays from '../pages/birthdays/Birthdays';
-import Financial from '../pages/financial/Financial';
-import Profile from '../pages/profile/Profile';
-import Admin from '../pages/admin/Admin';
+import Calendar from '../pages/Calendar';
+import Entities from '../pages/Entities';
+import Studies from '../pages/Studies';
+import Photos from '../pages/Photos';
+import Songs from '../pages/Songs';
+import Birthdays from '../pages/Birthdays';
+import Financial from '../pages/Financial';
+import Profile from '../pages/Profile';
+import Admin from '../pages/Admin';
 import NotFound from '../pages/NotFound';
 
 // Componente para rotas protegidas
